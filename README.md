@@ -1,16 +1,23 @@
 # social_media_feeds_template
 
-A new Flutter project.
+<b>Running the app locally :</b>
+* Clone the project from this repo
+* Set up a firebase project using firebase console and set firestore rules. 
+* Run the following command
+```
+  flutter pub get
+  flutter run
+```
 
-## Getting Started
+A simple social media feeds template application built using Flutter-dart with firebase backend.
+<br><br>
+<b>Features :</b>
+* Inifite scroll view with pagination.
+* Download content of any file type with download progress.
+* Share the content of a post to other social media apps.
+* Real time data updates from firebase firestore backend.
 
-This project is a starting point for a Flutter application.
+<br><br>
+<b>Description</b>
+* This app is built using reusable widgets and functions that are optimized for reduced widget rebuilds.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
